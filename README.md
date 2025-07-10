@@ -40,3 +40,16 @@ Ele integra dados, modelos de IA e uma interface simples para demonstração e a
    ```bash
    git clone https://github.com/NikolasNP/ProjetoIIA-2.git
    cd ProjetoIIA-2
+   ```
+Recomenda-se usar um ambiente virtual:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+```
+
+Instale as dependências:
+```bash
+pip install -r requirements.txt
+```
