@@ -1,0 +1,7 @@
+# tree_config.yaml
+path: /content/datasets/tree_detection
+train: train/images
+val: val/images
+
+nc: 1
+names: ['tree']

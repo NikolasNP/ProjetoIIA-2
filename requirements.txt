@@ -1,0 +1,30 @@
+# Requirements.txt para Projeto de Detecção de Árvores com YOLO
+# Versões fixadas para garantir compatibilidade
+
+# Bibliotecas essenciais
+torch>=2.0.0
+torchvision>=0.15.0
+
+# YOLOv8 (recomendado)
+ultralytics>=8.0.0
+
+# YOLOv11 (se preferir usar - descomente abaixo)
+# git+https://github.com/WongKinYiu/yolov11.git
+
+# Pré-processamento
+opencv-python>=4.7.0
+Pillow>=9.5.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Visualização e análise
+matplotlib>=3.7.0
+seaborn>=0.12.0
+jupyter>=1.0.0  # Opcional para notebooks
+
+# Utilitários
+tqdm>=4.65.0
+scikit-learn>=1.2.0  # Para métricas adicionais
+
+# Gerenciamento de dados
+pyyaml>=6.0  # Para arquivos de configuração YOLO
